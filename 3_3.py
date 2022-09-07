@@ -2,6 +2,6 @@
 name = input('Как Вас зовут')
 age = input ('Сколько Вам лет')
 city = input ('Откуда Вы')
-print('Меня зовут', name, 'Мне', age, 'лет ' 'Я из',  city)
+print('Меня зовут {}. Мне {}. лет Я из {}'.format(name, age, city))
 print('Меня зовут {name}. Мне {age} лет. Я из {city}'.format(name=name, age=age, city=city))
 print(f"Меня зовут {name}. Мне {age} лет. Я из {city}")
