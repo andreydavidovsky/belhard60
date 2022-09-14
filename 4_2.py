@@ -9,7 +9,7 @@ for i in text:
     else:
         my_dict[i] += 1
 for i in my_dict.items():
-            #print(my_dict)
+            print(my_dict)
             #print(i)
-            print(len(my_dict))
+            #print(len(my_dict))
 
